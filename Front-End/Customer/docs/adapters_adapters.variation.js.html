@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding favicon -->
+    
+
+    <!-- Adding meta -->
+    
+
+    <!-- Adding external script-->
+    
+
+    <!-- Adding external style-->
+    
+
+    <!-- Adding scripts-->
+    
+
+    <!-- Adding style-->
+    
+
+    <!-- Adding overlay script-->
+    
+
+    <!-- Adding overlay style-->
+    
+
+
+    <title>
+      adapters/adapters.variation.js
+    </title>
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/third-party/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/third-party/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/reset.css">
+    <link type="text/css" rel="stylesheet" href="styles/clean-jsdoc-theme-base.css">
+    <link type="text/css" rel="stylesheet" href="styles/clean-jsdoc-theme-light.css">
+    
+    <svg aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="display:none">
+    <defs>
+        <symbol id="copy-icon" viewbox="0 0 488.3 488.3">
+            <g>
+                <path
+                    d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124    C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124    c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z" />
+                <path
+                    d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227    c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6    V38.6C439.65,17.3,422.35,0,401.05,0z" />
+            </g>
+        </symbol>
+        <symbol id='search-icon' viewBox="0 0 512 512">
+            <g>
+                <g>
+                    <path
+                        d="M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474    c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323    c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848    S326.847,409.323,225.474,409.323z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328    c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z" />
+                </g>
+            </g>
+        </symbol>
+        <symbol id="down-icon" viewBox="0 0 16 16">
+            <path 
+                fill-rule="evenodd" 
+                clip-rule="evenodd" 
+                d="M12.7803 6.21967C13.0732 6.51256 13.0732 6.98744 12.7803 7.28033L8.53033 11.5303C8.23744 11.8232 7.76256 11.8232 7.46967 11.5303L3.21967 7.28033C2.92678 6.98744 2.92678 6.51256 3.21967 6.21967C3.51256 5.92678 3.98744 5.92678 4.28033 6.21967L8 9.93934L11.7197 6.21967C12.0126 5.92678 12.4874 5.92678 12.7803 6.21967Z"
+            >
+            </path>
+        </symbol>
+    </defs>
+</svg>
+  </head>
+
+  <body>
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar-heading" id="navbar-heading"><a href="index.html"><h2 class="navbar-heading-text">Home</h2></a></div><div class="search-box" id="search-box"><div class="search-box-input-container"><input class="search-box-input" type="text" placeholder="Search..." id="search-box-input" /><svg class="search-icon" alt="search-icon"><use xlink:href="#search-icon"></use></svg></div><div class="search-item-container" id="search-item-container"><ul class="search-item-ul" id="search-item-ul"></ul></div></div><div class="sidebar-main-content" id="sidebar-main-content"><div class="accordion collapsed" id="885965" > <h3 class="accordion-heading">Modules<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion collapsed child" id=9494514><div class="accordion-heading child"><a href="module-Adapter_Category.html">Adapter_Category</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Adapter_Category.html#~adaptCategory">adaptCategory</a></li></ul></li><li class="accordion collapsed child" id=871619><div class="accordion-heading child"><a href="module-Adapter_Product.html">Adapter_Product</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Adapter_Product.html#~adaptProduct">adaptProduct</a></li><li data-type='method'><a href="module-Adapter_Product.html#~getGender">getGender</a></li><li data-type='method'><a href="module-Adapter_Product.html#~getSimulatedVariations">getSimulatedVariations</a></li></ul></li><li class="accordion collapsed child" id=7802692><div class="accordion-heading child"><a href="module-Adapter_Variation.html">Adapter_Variation</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Adapter_Variation.html#~adaptVariation">adaptVariation</a></li></ul></li><li class="accordion collapsed child" id=9896772><div class="accordion-heading child"><a href="module-ComponentUtil_ColorPicker.html">ComponentUtil_ColorPicker</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_ColorPicker.html#~getRadioButton">getRadioButton</a></li></ul></li><li class="accordion collapsed child" id=6362033><div class="accordion-heading child"><a href="module-ComponentUtil_HambugerMenu.html">ComponentUtil_HambugerMenu</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_HambugerMenu.html#~getPopUpContent">getPopUpContent</a></li></ul></li><li class="accordion collapsed child" id=5180625><div class="accordion-heading child"><a href="module-ComponentUtil_ProductList.html">ComponentUtil_ProductList</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_ProductList.html#~getListTitle">getListTitle</a></li></ul></li><li class="accordion collapsed child" id=2548058><div class="accordion-heading child"><a href="module-ComponentUtil_ProductListContent.html">ComponentUtil_ProductListContent</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_ProductListContent.html#~getProducts">getProducts</a></li><li data-type='method'><a href="module-ComponentUtil_ProductListContent.html#~paraseProductList">paraseProductList</a></li></ul></li><li class="accordion collapsed child" id=1616200><div class="accordion-heading child"><a href="module-ComponentUtil_ProductReview.html">ComponentUtil_ProductReview</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_ProductReview.html#~getActiveStars">getActiveStars</a></li><li data-type='method'><a href="module-ComponentUtil_ProductReview.html#~getDeactiveStars">getDeactiveStars</a></li></ul></li><li class="accordion collapsed child" id=3086584><div class="accordion-heading child"><a href="module-ComponentUtil_ShoppingCart.html">ComponentUtil_ShoppingCart</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_ShoppingCart.html#~countItems">countItems</a></li><li data-type='method'><a href="module-ComponentUtil_ShoppingCart.html#~getCartContent">getCartContent</a></li><li data-type='method'><a href="module-ComponentUtil_ShoppingCart.html#~getCartMenu">getCartMenu</a></li></ul></li><li class="accordion collapsed child" id=4672294><div class="accordion-heading child"><a href="module-ComponentUtil_SizePicker.html">ComponentUtil_SizePicker</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-ComponentUtil_SizePicker.html#~getRadioButton">getRadioButton</a></li></ul></li><li class="accordion collapsed child" id=8901990><div class="accordion-heading child"><a href="module-Factory_Cart.html">Factory_Cart</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Factory_Cart.html#~createCart">createCart</a></li><li data-type='method'><a href="module-Factory_Cart.html#~createCartItem">createCartItem</a></li></ul></li><li class="accordion collapsed child" id=7116463><div class="accordion-heading child"><a href="module-Factory_Category.html">Factory_Category</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Factory_Category.html#~createCategory">createCategory</a></li></ul></li><li class="accordion collapsed child" id=9848265><div class="accordion-heading child"><a href="module-Factory_Product.html">Factory_Product</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Factory_Product.html#~createProduct">createProduct</a></li></ul></li><li class="accordion collapsed child" id=7700932><div class="accordion-heading child"><a href="module-Factory_Variation.html">Factory_Variation</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Factory_Variation.html#~createVariation">createVariation</a></li></ul></li><li class="accordion collapsed child" id=7162696><div class="accordion-heading child"><a href="module-Service_Category.html">Service_Category</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Service_Category.html#~getCategoryAll">getCategoryAll</a></li></ul></li><li class="accordion collapsed child" id=8600470><div class="accordion-heading child"><a href="module-Service_Product.html">Service_Product</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Service_Product.html#~getProductById">getProductById</a></li><li data-type='method'><a href="module-Service_Product.html#~getProductsAll">getProductsAll</a></li><li data-type='method'><a href="module-Service_Product.html#~getProductsByCategory">getProductsByCategory</a></li><li data-type='method'><a href="module-Service_Product.html#~getProductsMostViwed">getProductsMostViwed</a></li></ul></li><li class="accordion collapsed child" id=994152><div class="accordion-heading child"><a href="module-Service_Util.html">Service_Util</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Service_Util.html#~callGet">callGet</a></li><li data-type='method'><a href="module-Service_Util.html#~callGetWithURLParams">callGetWithURLParams</a></li></ul></li><li class="accordion collapsed child" id=7399614><div class="accordion-heading child"><a href="module-Service_Variation.html">Service_Variation</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Service_Variation.html#~getProductVariations">getProductVariations</a></li></ul></li><li class="accordion collapsed child" id=6391028><div class="accordion-heading child"><a href="module-Util_NavBarMenu.html">Util_NavBarMenu</a><svg><use xlink:href="#down-icon"></use></svg></div><ul class='methods accordion-content'><li data-type='method'><a href="module-Util_NavBarMenu.html#~getMainBarOptions">getMainBarOptions</a></li></ul></li></ul> </div><div class="accordion collapsed" id="932249" > <h3 class="accordion-heading">Global<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion-list" id=""><a href="global.html#App">App</a></li><li class="accordion-list" id=""><a href="global.html#CartContext">CartContext</a></li><li class="accordion-list" id=""><a href="global.html#CartContextValue">CartContextValue</a></li><li class="accordion-list" id=""><a href="global.html#ColorPicker">ColorPicker</a></li><li class="accordion-list" id=""><a href="global.html#HamburgerMenu">HamburgerMenu</a></li><li class="accordion-list" id=""><a href="global.html#HamburgerMenuContent">HamburgerMenuContent</a></li><li class="accordion-list" id=""><a href="global.html#HamburgerMenuLink">HamburgerMenuLink</a></li><li class="accordion-list" id=""><a href="global.html#NavBar">NavBar</a></li><li class="accordion-list" id=""><a href="global.html#NavBarMenu">NavBarMenu</a></li><li class="accordion-list" id=""><a href="global.html#NavBarMenuLink">NavBarMenuLink</a></li><li class="accordion-list" id=""><a href="global.html#ProductList">ProductList</a></li><li class="accordion-list" id=""><a href="global.html#ProductListContent">ProductListContent</a></li><li class="accordion-list" id=""><a href="global.html#ProductListItem">ProductListItem</a></li><li class="accordion-list" id=""><a href="global.html#ProductPage">ProductPage</a></li><li class="accordion-list" id=""><a href="global.html#ProductReview">ProductReview</a></li><li class="accordion-list" id=""><a href="global.html#ShoppingCart">ShoppingCart</a></li><li class="accordion-list" id=""><a href="global.html#ShoppingCartContent">ShoppingCartContent</a></li><li class="accordion-list" id=""><a href="global.html#ShoppingCartItem">ShoppingCartItem</a></li><li class="accordion-list" id=""><a href="global.html#SidePopUp">SidePopUp</a></li><li class="accordion-list" id=""><a href="global.html#SizePicker">SizePicker</a></li></ul> </div>
+      
+
+    </nav>
+    <div class="navbar-ham" id="navbar-ham">
+      <div>
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+      </div>
+    </div>
+
+    <div id="main" class="main-content">
+      
+      <h1 id='page-title' class="page-title">
+        adapters/adapters.variation.js
+      </h1>
+      
+
+      
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { createVariation } from "../models/models.variation";
+/**
+ *
+ * @module Adapter_Variation
+ */
+
+/**
+ *
+ * @param {*} objResponse
+ * @returns
+ */
+const adaptVariation = (objResponse) => {
+  try {
+    return createVariation(
+      objResponse.id,
+      objResponse.productId,
+      objResponse.displayName,
+      objResponse.values
+    );
+  } catch (error) {
+    throw error;
+  }
+};
+
+export { adaptVariation };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    </div>
+
+    <footer class="footer" id="footer">
+      
+    </footer>
+
+    <script src="scripts/third-party/prettify.js"></script>
+    <script src="scripts/third-party/lang-css.js"></script>
+    <script type="text/javascript" src="scripts/misc.js"></script>
+
+    <script>prettyPrint();</script>
+    <script src="scripts/linenumber.js"></script>
+    <script src="scripts/fix-code-block.js"></script>
+    <script src="scripts/fix-navbar.js"></script>
+    
+      <script src="scripts/search.js"></script>
+      <script src="scripts/third-party/fuse.js"></script>
+      <script>
+        var list = [{"title":"Adapter_Category","link":"<a href=\"module-Adapter_Category.html\">Adapter_Category</a>"},{"title":"module:Adapter_Category~adaptCategory","link":"<a href=\"module-Adapter_Category.html#~adaptCategory\">module:Adapter_Category~adaptCategory &rtrif; undefined</a>"},{"title":"Adapter_Product","link":"<a href=\"module-Adapter_Product.html\">Adapter_Product</a>"},{"title":"module:Adapter_Product~adaptProduct","link":"<a href=\"module-Adapter_Product.html#~adaptProduct\">module:Adapter_Product~adaptProduct &rtrif; undefined</a>"},{"title":"module:Adapter_Product~getGender","link":"<a href=\"module-Adapter_Product.html#~getGender\">module:Adapter_Product~getGender &rtrif; undefined</a>"},{"title":"module:Adapter_Product~getSimulatedVariations","link":"<a href=\"module-Adapter_Product.html#~getSimulatedVariations\">module:Adapter_Product~getSimulatedVariations &rtrif; undefined</a>"},{"title":"Adapter_Variation","link":"<a href=\"module-Adapter_Variation.html\">Adapter_Variation</a>"},{"title":"module:Adapter_Variation~adaptVariation","link":"<a href=\"module-Adapter_Variation.html#~adaptVariation\">module:Adapter_Variation~adaptVariation &rtrif; undefined</a>"},{"title":"ComponentUtil_ColorPicker","link":"<a href=\"module-ComponentUtil_ColorPicker.html\">ComponentUtil_ColorPicker</a>"},{"title":"module:ComponentUtil_ColorPicker~getRadioButton","link":"<a href=\"module-ComponentUtil_ColorPicker.html#~getRadioButton\">module:ComponentUtil_ColorPicker~getRadioButton &rtrif; undefined</a>"},{"title":"ComponentUtil_HambugerMenu","link":"<a href=\"module-ComponentUtil_HambugerMenu.html\">ComponentUtil_HambugerMenu</a>"},{"title":"module:ComponentUtil_HambugerMenu~getPopUpContent","link":"<a href=\"module-ComponentUtil_HambugerMenu.html#~getPopUpContent\">module:ComponentUtil_HambugerMenu~getPopUpContent &rtrif; undefined</a>"},{"title":"ComponentUtil_ProductList","link":"<a href=\"module-ComponentUtil_ProductList.html\">ComponentUtil_ProductList</a>"},{"title":"module:ComponentUtil_ProductList~getListTitle","link":"<a href=\"module-ComponentUtil_ProductList.html#~getListTitle\">module:ComponentUtil_ProductList~getListTitle &rtrif; undefined</a>"},{"title":"ComponentUtil_ProductListContent","link":"<a href=\"module-ComponentUtil_ProductListContent.html\">ComponentUtil_ProductListContent</a>"},{"title":"module:ComponentUtil_ProductListContent~getProducts","link":"<a href=\"module-ComponentUtil_ProductListContent.html#~getProducts\">module:ComponentUtil_ProductListContent~getProducts &rtrif; undefined</a>"},{"title":"module:ComponentUtil_ProductListContent~paraseProductList","link":"<a href=\"module-ComponentUtil_ProductListContent.html#~paraseProductList\">module:ComponentUtil_ProductListContent~paraseProductList &rtrif; undefined</a>"},{"title":"ComponentUtil_ProductReview","link":"<a href=\"module-ComponentUtil_ProductReview.html\">ComponentUtil_ProductReview</a>"},{"title":"module:ComponentUtil_ProductReview~getActiveStars","link":"<a href=\"module-ComponentUtil_ProductReview.html#~getActiveStars\">module:ComponentUtil_ProductReview~getActiveStars &rtrif; undefined</a>"},{"title":"module:ComponentUtil_ProductReview~getDeactiveStars","link":"<a href=\"module-ComponentUtil_ProductReview.html#~getDeactiveStars\">module:ComponentUtil_ProductReview~getDeactiveStars &rtrif; undefined</a>"},{"title":"ComponentUtil_ShoppingCart","link":"<a href=\"module-ComponentUtil_ShoppingCart.html\">ComponentUtil_ShoppingCart</a>"},{"title":"module:ComponentUtil_ShoppingCart~countItems","link":"<a href=\"module-ComponentUtil_ShoppingCart.html#~countItems\">module:ComponentUtil_ShoppingCart~countItems &rtrif; undefined</a>"},{"title":"module:ComponentUtil_ShoppingCart~getCartContent","link":"<a href=\"module-ComponentUtil_ShoppingCart.html#~getCartContent\">module:ComponentUtil_ShoppingCart~getCartContent &rtrif; undefined</a>"},{"title":"module:ComponentUtil_ShoppingCart~getCartMenu","link":"<a href=\"module-ComponentUtil_ShoppingCart.html#~getCartMenu\">module:ComponentUtil_ShoppingCart~getCartMenu &rtrif; undefined</a>"},{"title":"ComponentUtil_SizePicker","link":"<a href=\"module-ComponentUtil_SizePicker.html\">ComponentUtil_SizePicker</a>"},{"title":"module:ComponentUtil_SizePicker~getRadioButton","link":"<a href=\"module-ComponentUtil_SizePicker.html#~getRadioButton\">module:ComponentUtil_SizePicker~getRadioButton &rtrif; undefined</a>"},{"title":"Factory_Cart","link":"<a href=\"module-Factory_Cart.html\">Factory_Cart</a>"},{"title":"module:Factory_Cart~createCart","link":"<a href=\"module-Factory_Cart.html#~createCart\">module:Factory_Cart~createCart &rtrif; undefined</a>"},{"title":"module:Factory_Cart~createCartItem","link":"<a href=\"module-Factory_Cart.html#~createCartItem\">module:Factory_Cart~createCartItem &rtrif; undefined</a>"},{"title":"Factory_Category","link":"<a href=\"module-Factory_Category.html\">Factory_Category</a>"},{"title":"module:Factory_Category~createCategory","link":"<a href=\"module-Factory_Category.html#~createCategory\">module:Factory_Category~createCategory &rtrif; undefined</a>"},{"title":"Factory_Product","link":"<a href=\"module-Factory_Product.html\">Factory_Product</a>"},{"title":"module:Factory_Product~createProduct","link":"<a href=\"module-Factory_Product.html#~createProduct\">module:Factory_Product~createProduct &rtrif; undefined</a>"},{"title":"Factory_Variation","link":"<a href=\"module-Factory_Variation.html\">Factory_Variation</a>"},{"title":"module:Factory_Variation~createVariation","link":"<a href=\"module-Factory_Variation.html#~createVariation\">module:Factory_Variation~createVariation &rtrif; undefined</a>"},{"title":"Service_Category","link":"<a href=\"module-Service_Category.html\">Service_Category</a>"},{"title":"module:Service_Category~getCategoryAll","link":"<a href=\"module-Service_Category.html#~getCategoryAll\">module:Service_Category~getCategoryAll &rtrif; undefined</a>"},{"title":"Service_Product","link":"<a href=\"module-Service_Product.html\">Service_Product</a>"},{"title":"module:Service_Product~getProductById","link":"<a href=\"module-Service_Product.html#~getProductById\">module:Service_Product~getProductById &rtrif; undefined</a>"},{"title":"module:Service_Product~getProductsAll","link":"<a href=\"module-Service_Product.html#~getProductsAll\">module:Service_Product~getProductsAll &rtrif; undefined</a>"},{"title":"module:Service_Product~getProductsByCategory","link":"<a href=\"module-Service_Product.html#~getProductsByCategory\">module:Service_Product~getProductsByCategory &rtrif; undefined</a>"},{"title":"module:Service_Product~getProductsMostViwed","link":"<a href=\"module-Service_Product.html#~getProductsMostViwed\">module:Service_Product~getProductsMostViwed &rtrif; undefined</a>"},{"title":"Service_Util","link":"<a href=\"module-Service_Util.html\">Service_Util</a>"},{"title":"module:Service_Util~callGet","link":"<a href=\"module-Service_Util.html#~callGet\">module:Service_Util~callGet &rtrif; undefined</a>"},{"title":"module:Service_Util~callGetWithURLParams","link":"<a href=\"module-Service_Util.html#~callGetWithURLParams\">module:Service_Util~callGetWithURLParams &rtrif; undefined</a>"},{"title":"Service_Variation","link":"<a href=\"module-Service_Variation.html\">Service_Variation</a>"},{"title":"module:Service_Variation~getProductVariations","link":"<a href=\"module-Service_Variation.html#~getProductVariations\">module:Service_Variation~getProductVariations &rtrif; undefined</a>"},{"title":"Util_NavBarMenu","link":"<a href=\"module-Util_NavBarMenu.html\">Util_NavBarMenu</a>"},{"title":"module:Util_NavBarMenu~getMainBarOptions","link":"<a href=\"module-Util_NavBarMenu.html#~getMainBarOptions\">module:Util_NavBarMenu~getMainBarOptions &rtrif; undefined</a>"},{"title":"App","link":"<a href=\"global.html#App\">App</a>"},{"title":"CartContext","link":"<a href=\"global.html#CartContext\">CartContext</a>"},{"title":"CartContextValue","link":"<a href=\"global.html#CartContextValue\">CartContextValue</a>"},{"title":"ColorPicker","link":"<a href=\"global.html#ColorPicker\">ColorPicker</a>"},{"title":"HamburgerMenu","link":"<a href=\"global.html#HamburgerMenu\">HamburgerMenu</a>"},{"title":"HamburgerMenuContent","link":"<a href=\"global.html#HamburgerMenuContent\">HamburgerMenuContent</a>"},{"title":"HamburgerMenuLink","link":"<a href=\"global.html#HamburgerMenuLink\">HamburgerMenuLink</a>"},{"title":"NavBar","link":"<a href=\"global.html#NavBar\">NavBar</a>"},{"title":"NavBarMenu","link":"<a href=\"global.html#NavBarMenu\">NavBarMenu</a>"},{"title":"NavBarMenuLink","link":"<a href=\"global.html#NavBarMenuLink\">NavBarMenuLink</a>"},{"title":"ProductList","link":"<a href=\"global.html#ProductList\">ProductList</a>"},{"title":"ProductListContent","link":"<a href=\"global.html#ProductListContent\">ProductListContent</a>"},{"title":"ProductListItem","link":"<a href=\"global.html#ProductListItem\">ProductListItem</a>"},{"title":"ProductPage","link":"<a href=\"global.html#ProductPage\">ProductPage</a>"},{"title":"ProductReview","link":"<a href=\"global.html#ProductReview\">ProductReview</a>"},{"title":"ShoppingCart","link":"<a href=\"global.html#ShoppingCart\">ShoppingCart</a>"},{"title":"ShoppingCartContent","link":"<a href=\"global.html#ShoppingCartContent\">ShoppingCartContent</a>"},{"title":"ShoppingCartItem","link":"<a href=\"global.html#ShoppingCartItem\">ShoppingCartItem</a>"},{"title":"SidePopUp","link":"<a href=\"global.html#SidePopUp\">SidePopUp</a>"},{"title":"SizePicker","link":"<a href=\"global.html#SizePicker\">SizePicker</a>"}];
+        var options = 
+          setupSearch(list, options)
+      </script>
+    
+
+    
+
+    
+
+    
+
+
+  </body>
+
+</html>
